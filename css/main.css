@@ -57,8 +57,9 @@ a {
   flex-direction: row;
   font-family: Georgia;
   color: #fff;
+  background-color: #623b0c;
   padding-left: .75rem;
-  padding-bottom:.5rem;
+  padding-bottom: .5rem;
   padding-top: .5rem;
   text-decoration: none;
   border-radius: 8px;
