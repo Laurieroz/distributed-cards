@@ -1,4 +1,4 @@
-html{
+html {
   background-color: #f5f2f0;
   font-family: Georgia, serif;
   box-sizing: border-box;
@@ -9,7 +9,11 @@ html{
   box-sizing: inherit;
 }
 
-h1{
+body {
+  margin: 0;
+}
+
+h1 {
   font-family: "Denk One";
   color: #623b0c;
   padding-left: 1rem;
@@ -18,7 +22,7 @@ h1{
   margin: 0;
 }
 
-h2{
+h2 {
   font-family: "Denk One";
   color: #623b0c;
   justify-content: center;
@@ -26,12 +30,12 @@ h2{
   margin: 0;
 }
 
-img{
+img {
   width: 100%;
   margin: 0;
 }
 
-ol{
+ol {
   display: grid;
   grid-template-rows: 1fr 1fr;
   grid-template-columns: 1fr 1fr;
@@ -40,7 +44,7 @@ ol{
   margin: 0;
 }
 
-li{
+li {
   list-style: none;
   padding: 1rem;
   background-color: #ede3db;
@@ -48,7 +52,7 @@ li{
   border: 2px solid #623b0c;
 }
 
-a{
+a {
   display: flex;
   flex-direction: row;
   font-family: Georgia;
@@ -61,7 +65,7 @@ a{
   margin: 0;
 }
 
-p{
+p {
   font-family: Georgia;
   padding-top: 1.4rem;
   padding-bottom: 1.5rem;
