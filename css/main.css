@@ -17,17 +17,17 @@ h1 {
   font-family: "Denk One";
   color: #623b0c;
   padding-left: 1rem;
-  padding-top: 1rem;
-  padding-bottom: .5rem;
-  margin: 0;
+  margin-top: .5em;
+  margin-bottom: .38em;
 }
 
 h2 {
   font-family: "Denk One";
   color: #623b0c;
   justify-content: center;
-  padding-bottom: 1.5rem;
-  margin: 0;
+  padding-bottom: .3rem;
+  padding-top: .17rem;
+  margin-top: 0;
 }
 
 img {
@@ -40,7 +40,11 @@ ol {
   grid-template-rows: 1fr 1fr;
   grid-template-columns: 1fr 1fr;
   grid-gap: 1rem;
-  padding: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: .6em;
+  padding-bottom: 1rem;
+  border-radius: 8px;
   margin: 0;
 }
 
@@ -49,26 +53,31 @@ li {
   padding: 1rem;
   background-color: #ede3db;
   border-radius: 8px;
-  border: 2px solid #623b0c;
+  display: flex;
+  flex-direction: column;
+  border: 1.83px solid #623b0c;
 }
 
 a {
-  display: flex;
-  flex-direction: row;
   font-family: Georgia;
   color: #fff;
   background-color: #623b0c;
   padding-left: .75rem;
-  padding-bottom: .5rem;
+  padding-bottom: .6rem;
   padding-top: .5rem;
   text-decoration: none;
   border-radius: 8px;
-  margin: 0;
+  justify-content: space-between;
+  margin-top: auto;
+}
+
+ul {
+  grid-column: auto;
 }
 
 p {
   font-family: Georgia;
-  padding-top: 1.4rem;
+  padding-top: 1.3rem;
   padding-bottom: 1.5rem;
   margin: 0;
 }
